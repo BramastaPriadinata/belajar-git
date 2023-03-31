@@ -9,4 +9,4 @@ console.log(multiply(2,3));
 
 
 const divide=(a,b) => a/b;
-console.log(divide(2/2));
+console.log(divide(6,2));
