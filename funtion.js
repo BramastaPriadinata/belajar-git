@@ -9,3 +9,6 @@ console.log(multiplyNumber(2,3));
 
 const divide=(a,b) => a/b;
 console.log(divide(6,2));
+
+const mathSin = (Number) => Math.sin(Number);
+console.log(mathSin(10));
