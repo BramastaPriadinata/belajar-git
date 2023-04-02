@@ -1,18 +1,34 @@
 //Conventional Commits//
-fix: (memperbaiki kalau ada bug)
-feat: (menambah fitur baru)
-feat(work in progress WIP): (menandakan feat masih belum selesai atau dalam progress)
-feat!: (penting breaking changes) 
+"fix:" = memperbaiki kalau ada bug
+"feat:" = menambah fitur baru
+"feat(work in progress WIP)": = menandakan feat masih belum selesai atau dalam progress
+"feat!:" = penting breaking changes
 example
-feat(api)!: send an email to the customer when a product is shipped (featur baru yang berhubungan dengan api dan penting dengan message)
+"feat(api)!: send an email to the customer when a product is shipped" = featur baru yang berhubungan dengan api dan penting dengan message
 
-build: (kalau main di build (build prosess))
-chore: (memperbaiki atau menambah fitur pada suatu tools di dalam project)
-ci: (continue integration)
-docs: (update documentasi)
-style: (improvement style dalam aplikasi/project)
-refactor: (memperbaiki kode yang banyak menjadi lebih sedikit sehingga menjadi lebih efisien dan mudah dibaca)
-perf: (berhubungan dengan performa)
-test: (menambahkan uni testing)
+"build:" = kalau main di build (build prosess)
+"chore:" = memperbaiki atau menambah fitur pada suatu tools di dalam project
+"ci:" = continue integration
+"docs:" = update documentasi
+"style:" = improvement style dalam aplikasi/project
+"refactor:" = memperbaiki kode yang banyak menjadi lebih sedikit sehingga menjadi lebih efisien dan mudah dibaca
+"perf:" = berhubungan dengan performa
+"test:" = menambahkan uni testing
+
+//usefull git command//
+git init = mengubah folder menjadi repository
+git status = melihat stastus saat ini
+
+git add = manambah file ke staging
+git add nama File = manambah satu file ke staging
+git add . = manambah semua file ke staging
+
+git commit -m "feat: text message" = commit file yang berada di staging dengan message
+
+git diff = melihat perbedaan atau perubahan atau modifikasi file, tidak termasuk file baru
+
+git restore = mengembalikan perubahan
+git restore nama file = mengembalikan perubahan satu file
+git restore . = mengembalikan perubahan semua file
 
 
