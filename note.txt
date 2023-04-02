@@ -6,7 +6,6 @@ feat!: (penting breaking changes)
 example
 feat(api)!: send an email to the customer when a product is shipped (featur baru yang berhubungan dengan api dan penting dengan message)
 
-
 build: (kalau main di build (build prosess))
 chore: (memperbaiki atau menambah fitur pada suatu tools di dalam project)
 ci: (continue integration)
