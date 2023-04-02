@@ -1,0 +1,19 @@
+//Conventional Commits//
+fix: (memperbaiki kalau ada bug)
+feat: (menambah fitur baru)
+feat(work in progress WIP): (menandakan feat masih belum selesai atau dalam progress)
+feat!: (penting breaking changes) 
+example
+feat(api)!: send an email to the customer when a product is shipped (featur baru yang berhubungan dengan api dan penting dengan message)
+
+
+build: (kalau main di build (build prosess))
+chore: (memperbaiki atau menambah fitur pada suatu tools di dalam project)
+ci: (continue integration)
+docs: (update documentasi)
+style: (improvement style dalam aplikasi/project)
+refactor: (memperbaiki kode yang banyak menjadi lebih sedikit sehingga menjadi lebih efisien dan mudah dibaca)
+perf: (berhubungan dengan performa)
+test: (menambahkan uni testing)
+
+
