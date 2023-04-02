@@ -20,7 +20,7 @@ git init = mengubah folder menjadi repository
 git status = melihat stastus saat ini
 
 git add = manambah file ke staging
-git add nama File = manambah satu file ke staging
+git add namaFile = manambah satu file ke staging
 git add . = manambah semua file ke staging
 
 git commit -m "feat: text message" = commit file yang berada di staging dengan message
@@ -28,7 +28,26 @@ git commit -m "feat: text message" = commit file yang berada di staging dengan m
 git diff = melihat perbedaan atau perubahan atau modifikasi file, tidak termasuk file baru
 
 git restore = mengembalikan perubahan
-git restore nama file = mengembalikan perubahan satu file
+git restore namaFile = mengembalikan perubahan satu file
 git restore . = mengembalikan perubahan semua file
 
+git restore -S namaFile = mengembalikan satu file dari staging ke working directory
+git restore -S . = mengembalikan semua file dari staging ke working directory
 
+git reset namaFile = mengembalikan satu file dari staging ke working directory
+git reset . = mengembalikan semua file dari staging ke working directory
+
+git reset --hard nomorHash = mengembalikan ke commit sebelumnya dan menghilangkan commit sebelumnya
+
+git checkout -b namaBranch = membuat branch baru
+git checkout master = pidah ke master
+
+git merge namaBranch = menyatukan/menggabungkan branch baru ke master (posisi harus di master/main)
+
+git revert nomorHash = kembali ke commit tertentu tanpa merusak atau menghapus commit setelahnya
+
+git clone linkCloneCode = mengcopy repository dari github ke local
+
+git push origin master(namaBranch) = mensinkronkan local ke repository github 
+
+git pull origin master(namaBranch) = mensinkronkan repository github ke local
