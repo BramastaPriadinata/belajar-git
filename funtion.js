@@ -12,3 +12,4 @@ console.log(divide(6,2));
 
 const mathSin = (Number) => Math.sin(Number);
 console.log(mathSin(10));
+
